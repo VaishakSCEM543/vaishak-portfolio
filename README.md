@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vaishak Karkera — Portfolio
 
-## Getting Started
+> **ECE Engineer** • Embedded Systems • IoT • AI Automation • Software
 
-First, run the development server:
+A modern, responsive portfolio built with **Next.js 15**, **Framer Motion**, and **Tailwind CSS** — showcasing my work in embedded systems, IoT, smart automation, and full-stack development.
+
+## 🔗 Live
+
+> Coming soon — deployment in progress.
+
+## ✨ Features
+
+- **Dark-mode-first** design with glassmorphism cards and subtle glow effects
+- **Framer Motion** animations for smooth page transitions and scroll reveals
+- **Responsive layout** optimized for mobile, tablet, and desktop
+- **Project filters** — browse work by category (Embedded, IoT, Automation, Dashboard)
+- **Resume download** — one-click access to the latest PDF resume
+- **SEO optimized** — proper meta tags, Open Graph, and semantic HTML
+
+## 🛠️ Tech Stack
+
+| Layer       | Technology                            |
+| ----------- | ------------------------------------- |
+| Framework   | Next.js 15 (App Router)               |
+| Language    | TypeScript                            |
+| Styling     | Tailwind CSS v4                       |
+| Animations  | Framer Motion                         |
+| Icons       | Lucide React                          |
+| Deployment  | Vercel (planned)                      |
+
+## 🚀 Getting Started
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+vaishak-portfolio/
+├── app/
+│   ├── layout.tsx      # Root layout with metadata & fonts
+│   ├── page.tsx         # Main portfolio page (all sections)
+│   ├── globals.css      # Global styles
+│   └── favicon.ico
+├── public/
+│   └── VAISHAK_RESUME.pdf
+├── package.json
+└── README.md
+```
 
-## Learn More
+## 📬 Contact
 
-To learn more about Next.js, take a look at the following resources:
+- **Email**: [karkeravaishak@gmail.com](mailto:karkeravaishak@gmail.com)
+- **GitHub**: [VaishakSCEM543](https://github.com/VaishakSCEM543)
+- **LinkedIn**: [Vaishak D Karkera](https://www.linkedin.com/in/vaishak-d-karkera-49b6ba292)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ by Vaishak Karkera
