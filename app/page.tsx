@@ -283,6 +283,14 @@ export default function Page() {
               >
                 GitHub <ArrowUpRight className="h-4 w-4" />
               </a>
+
+              <a
+                href="/VAISHAK_RESUME.pdf"
+                download
+                className="flex items-center gap-2 rounded-2xl border border-purple-400/30 bg-purple-400/10 px-6 py-3 text-sm font-semibold text-purple-200 hover:bg-purple-400/20 transition"
+              >
+                <FileText className="h-4 w-4" /> Resume
+              </a>
             </div>
 
             <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-3">
